@@ -1,0 +1,48 @@
+.ul {
+  width: 100%;
+  padding: 0 1rem;
+  display: grid;
+  gap: 0.8rem;
+  position: relative;
+  list-style: none;
+  overflow: scroll;
+}
+
+.ul::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  background-color: #3d3b3bfd;
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  border-left: 5px solid green;
+  color: #fff;
+}
+
+.list p {
+  display: flex;
+  gap: 1rem;
+}
+
+.remove {
+  background-color: #1c1b1bfd;
+  /* padding: 2px; */
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.cityItems--active {
+  border: 2px solid green;
+  border-left: 5px solid green;
+}

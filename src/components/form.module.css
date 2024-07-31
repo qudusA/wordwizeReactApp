@@ -1,0 +1,78 @@
+.formContainer {
+  width: 90%;
+  /* background-color: red; */
+}
+
+.form {
+  background-color: #3d3b3bfd;
+  /* background-color: red; */
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.form textarea {
+  height: 5rem;
+}
+
+/* .form .btn {
+  background-color: green;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+} */
+
+/* .form .backBtn {
+  color: #fff;
+  background-color: #3d3b3bfd;
+  border: 1px solid #717070;
+  cursor: pointer;
+} */
+
+.form .backBtn:hover {
+  background-color: #1c1b1bfd;
+}
+.lowerBtnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form div:first-child {
+  position: relative;
+  /* background-color: red; */
+}
+
+.flag {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  font-size: 2.8rem;
+  color: #000;
+  /* background-color: #000; */
+}
+
+.grayOut {
+  opacity: 0.3;
+}
+
+.grayOut button {
+  pointer-events: none;
+  background-color: rgba(11, 240, 11, 0.116);
+}

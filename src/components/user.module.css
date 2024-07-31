@@ -1,0 +1,21 @@
+.container {
+  /* width: 50px; */
+  /* height: 3rem; */
+  background-color: rgb(33, 26, 26);
+  /* background-color: red; */
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 10px;
+  right: 15px;
+  box-shadow: 0 5px 10px black;
+  z-index: 999;
+  padding: 10px;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+.container img {
+  width: 30px;
+  border-radius: 50%;
+}
